@@ -7,7 +7,7 @@ A simple attack via kernel module, with highly detailed comments.
 
 Here we'll compile a kernel module which intercepts every "read" system call, searches for a string and replaces it if it looks like the gcc compiler or the python interpreter. This is meant to demonstrate how a compromised system can build a malicious binary from perfectly safe source code.
 
-For more information see: http://linux-poetry.com/blog/12/
+For more information see: http://mrrrgn.com/18/
 
 Also check out: http://memset.wordpress.com/2010/12/03/syscall-hijacking-kernel-2-6-systems/
 
